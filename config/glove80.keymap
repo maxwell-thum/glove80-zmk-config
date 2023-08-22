@@ -15,10 +15,11 @@
 /* Include all behaviour includes needed by system behaviors/macros */
 /* Include behaviour includes needed by key binds - automatically generated */
 
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/outputs.h>
 
 #include "./mouse.dtsi"
 
@@ -148,7 +149,7 @@
             bindings = <
       &trans        &trans          &trans          &trans           &trans                                                                              &trans        &trans        &trans           &trans           &trans
 &kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV        &kp C_PP       &kp C_NEXT      &none                                                        &none  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp KP_MULTIPLY  &kp PAUSE_BREAK
-      &trans         &none        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                                       U_WH_U       &none        U_MS_U         &none            &none   &kp SCROLLLOCK
+      &trans         &none        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                               &mwh SCROLL_UP       &none  &mmv MOVE_UP         &none            &none   &kp SCROLLLOCK
       &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                       U_WH_D      U_MS_L        U_MS_D        U_MS_R           U_BTN2       &kp KP_NUM
       &trans         &kp Z           &kp X           &kp C            &none      &kp V   &to 0  &trans  &trans  &trans  &trans  &trans        &none      U_BTN4        U_BTN3        U_BTN5            &none           &trans
   &magic 3 0        &trans          &trans          &trans           &trans             &trans  &trans  &trans  &trans  &trans  U_BTN1                   &trans        &trans        &trans           &trans           &trans
