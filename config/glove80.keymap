@@ -147,12 +147,12 @@
 
         navigation_Plus {
             bindings = <
-      &trans        &trans          &trans          &trans           &trans                                                                              &trans        &trans        &trans           &trans           &trans
-&kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV        &kp C_PP       &kp C_NEXT      &none                                                        &none  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp KP_MULTIPLY  &kp PAUSE_BREAK
-      &trans         &none        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                               &mwh SCROLL_UP       &none  &mmv MOVE_UP         &none            &none   &kp SCROLLLOCK
-      &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                       U_WH_D      U_MS_L        U_MS_D        U_MS_R           U_BTN2       &kp KP_NUM
-      &trans         &kp Z           &kp X           &kp C            &none      &kp V   &to 0  &trans  &trans  &trans  &trans  &trans        &none      U_BTN4        U_BTN3        U_BTN5            &none           &trans
-  &magic 3 0        &trans          &trans          &trans           &trans             &trans  &trans  &trans  &trans  &trans  U_BTN1                   &trans        &trans        &trans           &trans           &trans
+      &trans        &trans          &trans          &trans           &trans                                                                                         &trans          &trans           &trans           &trans           &trans
+&kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV        &kp C_PP       &kp C_NEXT      &none                                                               &none      &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &kp KP_MULTIPLY  &kp PAUSE_BREAK
+      &trans         &none        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                                      &mwh SCROLL_UP           &none    &mmv MOVE_UP            &none            &none   &kp SCROLLLOCK
+      &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                    &mwh SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT         &mkp MB2       &kp KP_NUM
+      &trans         &kp Z           &kp X           &kp C            &none      &kp V   &to 0  &trans  &trans  &trans  &trans  &trans               &none        &mkp MB4        &mkp MB3         &mkp MB5            &none           &trans
+  &magic 3 0        &trans          &trans          &trans           &trans             &trans  &trans  &trans  &trans  &trans  &mkp MB1                            &trans          &trans           &trans           &trans           &trans
             >;
         };
 
