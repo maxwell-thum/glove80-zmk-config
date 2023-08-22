@@ -152,7 +152,7 @@
       &trans         &none        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                                      &mwh SCROLL_UP           &none    &mmv MOVE_UP            &none     &none   &kp SCROLLLOCK
       &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                    &mwh SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB2       &kp KP_NUM
       &trans         &kp Z           &kp X           &kp C            &none      &kp V   &to 0  &trans  &trans  &trans  &trans  &trans               &none        &mkp MB4        &mkp MB3         &mkp MB5     &none           &trans
-  &magic 3 0        &trans          &trans          &trans           &trans             &trans  &trans  &trans  &trans  &trans  &mkp MB1                            &trans          &trans           &trans    &trans           &trans
+  &magic 3 0        &trans          &trans          &trans           &trans             &trans  &trans  &trans  &trans  &trans  &mkp MB1                            &trans          &trans           &trans    &trans           &kp C_SLEEP
             >;
         };
 
