@@ -20,6 +20,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#include "./mouse.dtsi"
+
 / {
     /* Glove80 system behavior & macros */
 
