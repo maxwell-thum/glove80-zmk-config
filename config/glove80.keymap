@@ -125,12 +125,12 @@
 
         base_layer {
             bindings = <
-     &kp F13              &kp F14              &kp F15              &kp F16              &kp F17                                                                                                                                                                 &kp F18                      &kp F19                        &kp F20                              &kp F21                              &kp F22
-      &kp F1               &kp F2               &kp F3               &kp F4               &kp F5               &kp F6                                                                                                                        &kp F7               &kp F8                       &kp F9                        &kp F10                              &kp F11                              &kp F12
-&kp CAPSLOCK  &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(F) F  &auto_shift LS(P) P  &auto_shift LS(B) B                                                                                                           &auto_shift LS(J) J  &auto_shift LS(L) L          &auto_shift LS(U) U            &auto_shift LS(Y) Y  &auto_shift LS(SEMICOLON) SEMICOLON  &auto_shift LS(BACKSLASH) BACKSLASH
-     &kp TAB  &auto_shift LS(A) A  &auto_shift LS(R) R  &auto_shift LS(S) S  &auto_shift LS(T) T  &auto_shift LS(G) G                                                                                                           &auto_shift LS(M) M  &auto_shift LS(N) N          &auto_shift LS(E) E            &auto_shift LS(I) I                  &auto_shift LS(O) O              &auto_shift LS(SQT) SQT
-   &kp GRAVE  &auto_shift LS(Z) Z  &auto_shift LS(X) X  &auto_shift LS(C) C  &auto_shift LS(D) D  &auto_shift LS(V) V  &tap_dance_layer_2    &kp LEFT_SHIFT  &kp K_CONTEXT_MENU   &kp LGUI       &kp RCTRL  &tap_dance_layer_1  &auto_shift LS(K) K  &auto_shift LS(H) H  &auto_shift LS(COMMA) COMMA  &auto_shift LS(PERIOD) PERIOD          &auto_shift LS(SLASH) SLASH                              &kp INS
-  &magic 3 0            &kp MINUS            &kp EQUAL         &kp LEFT_GUI           &kp ESCAPE                                 &kp BSPC  &mt LCTRL DELETE  &mt LEFT_ALT ENTER  &kp RCTRL  &mt LALT ENTER           &kp SPACE                                  &kp LEFT                     &kp DOWN                   &kp UP_ARROW                            &kp RIGHT                      &kp PRINTSCREEN
+                       &kp F13              &kp F14              &kp F15              &kp F16              &kp F17                                                                                                                                                                 &kp F18                      &kp F19                        &kp F20                              &kp F21                              &kp F22
+                        &kp F1               &kp F2               &kp F3               &kp F4               &kp F5               &kp F6                                                                                                                        &kp F7               &kp F8                       &kp F9                        &kp F10                              &kp F11                              &kp F12
+                  &kp CAPSLOCK  &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(F) F  &auto_shift LS(P) P  &auto_shift LS(B) B                                                                                                           &auto_shift LS(J) J  &auto_shift LS(L) L          &auto_shift LS(U) U            &auto_shift LS(Y) Y  &auto_shift LS(SEMICOLON) SEMICOLON  &auto_shift LS(BACKSLASH) BACKSLASH
+                       &kp TAB  &auto_shift LS(A) A  &auto_shift LS(R) R  &auto_shift LS(S) S  &auto_shift LS(T) T  &auto_shift LS(G) G                                                                                                           &auto_shift LS(M) M  &auto_shift LS(N) N          &auto_shift LS(E) E            &auto_shift LS(I) I                  &auto_shift LS(O) O              &auto_shift LS(SQT) SQT
+   &auto_shift LS(GRAVE) GRAVE  &auto_shift LS(Z) Z  &auto_shift LS(X) X  &auto_shift LS(C) C  &auto_shift LS(D) D  &auto_shift LS(V) V  &tap_dance_layer_2    &kp LEFT_SHIFT  &kp K_CONTEXT_MENU   &kp LGUI      &kp RSHIFT  &tap_dance_layer_1  &auto_shift LS(K) K  &auto_shift LS(H) H  &auto_shift LS(COMMA) COMMA  &auto_shift LS(PERIOD) PERIOD          &auto_shift LS(SLASH) SLASH                              &kp INS
+                    &magic 3 0            &kp MINUS            &kp EQUAL         &kp LEFT_GUI           &kp ESCAPE                                 &kp BSPC  &mt LCTRL DELETE  &mt LEFT_ALT ENTER  &kp RCTRL  &mt LALT ENTER           &kp SPACE                                  &kp LEFT                     &kp DOWN                   &kp UP_ARROW                            &kp RIGHT                      &kp PRINTSCREEN
             >;
         };
 
@@ -147,12 +147,12 @@
 
         navigation_Plus {
             bindings = <
-      &trans        &trans          &trans          &trans           &trans                                                                                         &trans          &trans           &trans           &trans           &trans
-&kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV        &kp C_PP       &kp C_NEXT      &none                                                               &none      &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &kp KP_MULTIPLY  &kp PAUSE_BREAK
-      &trans         &none        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                                      &mwh SCROLL_UP           &none    &mmv MOVE_UP            &none            &none   &kp SCROLLLOCK
-      &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                    &mwh SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT         &mkp MB2       &kp KP_NUM
-      &trans         &kp Z           &kp X           &kp C            &none      &kp V   &to 0  &trans  &trans  &trans  &trans  &trans               &none        &mkp MB4        &mkp MB3         &mkp MB5            &none           &trans
-  &magic 3 0        &trans          &trans          &trans           &trans             &trans  &trans  &trans  &trans  &trans  &mkp MB1                            &trans          &trans           &trans           &trans           &trans
+      &trans        &trans          &trans          &trans           &trans                                                                                         &trans          &trans           &trans    &trans           &trans
+&kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV        &kp C_PP       &kp C_NEXT      &none                                                               &none      &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP     &none  &kp PAUSE_BREAK
+      &trans         &none        &kp HOME    &kp UP_ARROW          &kp END  &kp PG_UP                                                      &mwh SCROLL_UP           &none    &mmv MOVE_UP            &none     &none   &kp SCROLLLOCK
+      &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN                                                    &mwh SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB2       &kp KP_NUM
+      &trans         &kp Z           &kp X           &kp C            &none      &kp V   &to 0  &trans  &trans  &trans  &trans  &trans               &none        &mkp MB4        &mkp MB3         &mkp MB5     &none           &trans
+  &magic 3 0        &trans          &trans          &trans           &trans             &trans  &trans  &trans  &trans  &trans  &mkp MB1                            &trans          &trans           &trans    &trans           &trans
             >;
         };
 
@@ -160,7 +160,7 @@
             bindings = <
  &bt BT_CLR            &none            &none            &none            &none                                                                           &none  &none  &none  &none  &bt BT_CLR_ALL
       &none            &none            &none            &none            &none            &none                                                   &none  &none  &none  &none  &none           &none
-     &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                   &none  &none  &none  &none  &none           &none
+      &none  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                   &none  &none  &none  &none  &none           &none
 &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                   &none  &none  &none  &none  &none     &bootloader
  &sys_reset            &none            &none            &none            &none            &none  &bt_2  &bt_3         &none  &none  &none  &none  &none  &none  &none  &none  &none      &sys_reset
       &none            &none            &none            &none            &none                   &bt_0  &bt_1  &out OUT_USB  &none  &none  &none         &none  &none  &none  &none           &none
